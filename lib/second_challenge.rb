@@ -7,7 +7,7 @@ def second_challenge
   }
   output = [];
   groceries.each do |k,y|
-    output << groceries.keys
+    output << groceries.value
   end
 
   output
