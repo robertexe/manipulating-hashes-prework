@@ -10,7 +10,7 @@ def second_challenge
     output << groceries.values
   end
 
-  output.join
+  output.flatten
 
 
 end
