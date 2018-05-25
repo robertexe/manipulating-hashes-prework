@@ -5,10 +5,12 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
+  output = [];
+  groceries.each do |k,y|
+    output << groceries.keys
+  end
 
-  groceries.values(groceries.keys)
-
-
+  output
 
 
 end
